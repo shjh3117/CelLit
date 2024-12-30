@@ -4,7 +4,7 @@
 **CelLit**은 Unreal Engine 5에서 구현된 **셀 셰이딩 스타일 조명 쉐이더**입니다.
 
 ## 다른 언어로 보기
-- [English](README.en.md)
+- [English](README.md)
 - [한국어](README.ko.md)
 - [日本語](README.ja.md)
 
