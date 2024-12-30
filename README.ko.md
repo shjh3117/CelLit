@@ -35,11 +35,11 @@ CelLit Shader는 다음과 같은 주요 특징을 제공합니다.
   머리카락에 대한 2D Sadow 지원.  
 
 ## 기술적 특징  
-- **주요 지원 기술**   
+- **주요 지원 기능**   
   Lumen (HW/SW 레이트레이싱 둘 다 지원)  
   VSM  
   
-- **비호환**  
+- **비호환 기능**  
   SM5 and below  
   Mobile Shader  
   Raytracing Shadow  
