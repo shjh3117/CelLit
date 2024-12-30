@@ -3,7 +3,7 @@
 
 **CelLit**은 Unreal Engine 5에서 구현된 **셀 셰이딩 스타일 조명 쉐이더**입니다.
 
-## **소개**
+## 소개
 만화나 애니메이션 스타일의 조명 효과를 적용할 수 있습니다.  
 엔진의 Subsurface shading model의 hlsl 코드 수정을 통해 구현되었기에 엔진의 쉐이더를 파일을 교체하여야 합니다.  
 
@@ -29,15 +29,21 @@ CelLit Shader는 다음과 같은 주요 특징을 제공합니다.
 - **2D Shadow**  
   머리카락에 대한 2D Sadow 지원.  
 
-## **기술적 특징**  
+## 기술적 특징  
 - **주요 지원 기술**   
-  Lumen (Support both of HW raytracing and SW raytracing)  
-  VSM
+  Lumen (HW/SW 레이트레이싱 둘 다 지원)  
+  VSM  
   
 - **비호환**  
   SM5 and below  
   Mobile Shader  
   Raytracing Shadow  
   
-## **설치 방법**
+## 설치 방법
 1. Copy /Engine/Renderer/... to your engine directory.
+
+## 다른 언어로 보기
+
+- [English](README.en.md)
+- [한국어](README.ko.md)
+- [日本語](README.ja.md)
