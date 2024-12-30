@@ -1,7 +1,7 @@
 # **Custom CelLit Shader for Unreal Engine 5**
 ![image](https://github.com/user-attachments/assets/65949c17-e43f-42b8-9bb8-a68128da509d)
 
-**CelLit Shader**는 Unreal Engine 5에서 구현된 **셀 셰이딩 스타일 조명 쉐이더**입니다.
+**CelLit**은 Unreal Engine 5에서 구현된 **셀 셰이딩 스타일 조명 쉐이더**입니다.
 ---
 
 ## **소개**
