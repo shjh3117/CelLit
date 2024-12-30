@@ -46,4 +46,4 @@ CelLit Shader offers the following key features:
   Ray traced shadow
   
 ## Installation Instructions
-1. Copy `/Engine/Renderer/...` to your engine directory.
+1. Copy `/Engine/Shaders/...` to your engine directory.
