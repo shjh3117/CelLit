@@ -1,4 +1,4 @@
-# **Custom CelLit Shader for Unreal Engine 5**
+# **Custom cel-shading style shader for Unreal Engine 5**
 ![image](https://github.com/user-attachments/assets/65949c17-e43f-42b8-9bb8-a68128da509d)
 
 **CelLit**はUnreal Engine 5で実装された**セルシェーディングスタイルのライティングシェーダー**です。
