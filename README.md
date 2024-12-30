@@ -14,7 +14,7 @@ CelLit Shader는 다음과 같은 주요 특징을 제공합니다.
   Self-Shadow 억제.  
   
 - **Cel Global Illumination**  
-  조명을 받지 않는 표면에 대한 만화 같은 표현 (Multiple Tone).  
+  직접적으로 조명을 받지 않는 표면에 대한 만화 같은 표현 (Multiple Tone).  
   Lumen 간접광 대응.  
   
 - **Cel Face Sadow**  
