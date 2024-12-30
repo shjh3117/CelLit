@@ -1,48 +1,49 @@
 # **Custom CelLit Shader for Unreal Engine 5**
 ![image](https://github.com/user-attachments/assets/65949c17-e43f-42b8-9bb8-a68128da509d)
 
-**CelLit**은 Unreal Engine 5에서 구현된 **셀 셰이딩 스타일 조명 쉐이더**입니다.
+**CelLit** is a **cel-shading style lighting shader** implemented in Unreal Engine 5.
 
-## 다른 언어로 보기
-- [English](README.en.md)
+## View in Other Languages
+- [English](README.md)
 - [한국어](README.ko.md)
 - [日本語](README.ja.md)
 
-## 소개
-만화나 애니메이션 스타일의 조명 효과를 적용할 수 있습니다.  
-엔진의 Subsurface shading model의 hlsl 코드 수정을 통해 구현되었기에 엔진의 쉐이더를 파일을 교체하여야 합니다.  
+## Introduction
+This shader applies lighting effects in the style of manga or animation.  
+It modifies the HLSL code of the engine's subsurface shading model, requiring the engine's shader files to be replaced.
 
-CelLit Shader는 다음과 같은 주요 특징을 제공합니다.
+CelLit Shader offers the following key features:
+
 - **Cel Lit**  
-  조명을 받는 표면에 대한 만화 같은 표현 (Two tone).  
-  모든 종류의 조명에 대응.  
-  Self-Shadow 억제.  
+  Cartoon-like representation for surfaces receiving direct light (Two-tone shading).  
+  Supports all types of lighting.  
+  Suppresses self-shadowing.  
   
 - **Cel Global Illumination**  
-  직접적으로 조명을 받지 않는 표면에 대한 만화 같은 표현 (Multiple Tone).  
-  Lumen 간접광 대응.  
+  Cartoon-like representation for surfaces not directly lit (Multiple-tone shading).  
+  Compatible with Lumen indirect lighting.  
   
-- **Cel Face Sadow**  
-  조명을 받는 표면에 대한 만화 같은 얼굴 표현.  
-  Face Shadow Map 지원.  
+- **Cel Face Shadow**  
+  Cartoon-like facial shading for surfaces receiving direct light.  
+  Supports face shadow maps.  
   
 - **OutLine**  
-  Sobel Filltering을 이용하여 검출 하는 PostProcess Material 제공.  
-  여러 파라미터 제공.  
-  머리카락 특화 아웃라인 검출 제공.  
+  Provides a post-process material using Sobel filtering for edge detection.  
+  Includes multiple customizable parameters.  
+  Specialized outline detection for hair.  
 
 - **2D Shadow**  
-  머리카락에 대한 2D Sadow 지원.  
+  Supports 2D shadows specifically for hair.  
 
-## 기술적 특징  
-- **주요 지원 기술**   
-  Lumen (HW/SW 레이트레이싱 둘 다 지원)  
-  VSM  
+## Technical Features  
+- **Key Supported Technologies**  
+  Lumen (Supports both HW/SW ray tracing)  
+  VSM (Virtual Shadow Maps)  
   
-- **비호환**  
+- **Incompatible Technologies**  
   SM5 and below  
   Mobile Shader  
-  Raytracing Shadow  
+  Ray tracing Shadows  
   
-## 설치 방법
-1. Copy /Engine/Renderer/... to your engine directory.
+## Installation Instructions
+1. Copy `/Engine/Renderer/...` to your engine directory.
