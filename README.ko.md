@@ -42,7 +42,7 @@ CelLit Shader는 다음과 같은 주요 특징을 제공합니다.
 - **비호환 기능**  
   SM5 and below  
   Mobile Shader  
-  Raytracing Shadow  
+  Ray traced shadow
   
 ## 설치 방법
 1. Copy /Engine/Renderer/... to your engine directory.
