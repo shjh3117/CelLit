@@ -10,7 +10,7 @@
 
 ## 소개
 만화나 애니메이션 스타일의 조명 효과를 적용할 수 있습니다.  
-엔진의 Subsurface shading model의 hlsl 코드 수정을 통해 구현되었기에 엔진의 쉐이더를 파일을 교체하여야 합니다.  
+엔진의 Subsurface shading model의 HLSL 코드 수정을 통해 구현되었기에 엔진의 쉐이더를 파일을 교체하여야 합니다.  
 
 CelLit Shader는 다음과 같은 주요 특징을 제공합니다.
 - **Cel Lit**  
