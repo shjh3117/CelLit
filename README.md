@@ -41,11 +41,11 @@ CelLit Shader offers the following key features:
   Supports 2D shadows specifically for hair.  
 
 ## Technical Features  
-- **Supported Features**  
+- **Support**  
   Lumen (Supports both HW/SW ray tracing)  
   VSM (Virtual Shadow Maps)  
   
-- **Incompatible Features**  
+- **Incompatible**  
   SM5 and below  
   Mobile Shader  
   Ray traced shadow
