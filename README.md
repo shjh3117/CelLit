@@ -17,7 +17,7 @@ CelLit Shader offers the following key features:
 
 - **Cel Lit**  
   ![ScreenRecording2024-12-31123447-ezgif com-resize](https://github.com/user-attachments/assets/ab3b5d02-efdb-4592-93e4-8cfe7a61b9b7)  
-  Cartoon-like representation for surfaces receiving direct light (Two-tone shading).  
+  Cartoon-like shading for surfaces receiving direct light (Two-tone shading).  
   Supports all types of lighting.  
   Supports Saturate/Value shift in two tone.  
   Suppresses self-shadowing.  
@@ -25,7 +25,7 @@ CelLit Shader offers the following key features:
   
 - **Cel Global Illumination**  
   ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e)  
-  Cartoon-like representation for surfaces not directly lit (Multiple-tone shading).  
+  Cartoon-like shading for surfaces receiving indirectly light (Multiple-tone shading).  
   Compatible with Lumen indirect lighting.  
   
 - **Cel Face Shadow**
