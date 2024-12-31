@@ -21,9 +21,9 @@ CelLit Shader offers the following key features:
   Supports Saturate/Value shift in two tone.  
   Suppresses self-shadowing.  
   Compatible with PBR  
-  
+
 - **Cel Global Illumination**  
-  ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e) ![Screenshot2024-12-31153322-ezgif com-resize](https://github.com/user-attachments/assets/a2db7a80-8c63-4d67-89cb-20a9abf210af)  
+  ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e) ![Screenshot2024-12-31153322-ezgif com-resize](https://github.com/user-attachments/assets/a2db7a80-8c63-4d67-89cb-20a9abf210af) ![Screenshot2024-12-31205339-ezgif com-resize](https://github.com/user-attachments/assets/ea0d67bf-a56b-409b-af88-cca81a5b1935)  
   Cartoon-like shading for surfaces lit by indirect lighting (multi-tone shading).  
   Compatible with Lumen indirect lighting (Ex. Lit by Emissive Color).  
   
