@@ -19,6 +19,7 @@ CelLit Shader offers the following key features:
   ![ScreenRecording2024-12-31123447-ezgif com-resize](https://github.com/user-attachments/assets/ab3b5d02-efdb-4592-93e4-8cfe7a61b9b7)  
   Cartoon-like representation for surfaces receiving direct light (Two-tone shading).  
   Supports all types of lighting.  
+  Supports Saturate/Value shift in two tone.  
   Suppresses self-shadowing.  
   Compatible with PBR  
   
@@ -43,7 +44,8 @@ CelLit Shader offers the following key features:
 ## Technical Features  
 - **Support**  
   Lumen (Supports both HW/SW ray tracing)  
-  VSM (Virtual Shadow Maps)  
+  Virtual shadow maps  
+  Physically based rendering  
   
 - **Incompatible**  
   SM5 and below  
