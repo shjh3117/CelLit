@@ -16,17 +16,19 @@ CelLit Shader offers the following key features:
 
 
 - **Cel Lit**  
-  ![ScreenRecording2024-12-31123447-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/4b4ec8b3-3335-4cdc-9743-0a6c60a53409)  
+  ![ScreenRecording2024-12-31123447-ezgif com-resize](https://github.com/user-attachments/assets/ab3b5d02-efdb-4592-93e4-8cfe7a61b9b7)  
   Cartoon-like representation for surfaces receiving direct light (Two-tone shading).  
   Supports all types of lighting.  
   Suppresses self-shadowing.  
-  compatible PBR  
+  Compatible with PBR  
   
 - **Cel Global Illumination**  
+  ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e)  
   Cartoon-like representation for surfaces not directly lit (Multiple-tone shading).  
   Compatible with Lumen indirect lighting.  
   
-- **Cel Face Shadow**  
+- **Cel Face Shadow**
+  ![CelLitSampleProject - 언리얼 에디터 12_31_2024 1_34_52 PM](https://github.com/user-attachments/assets/089071c0-1e65-481f-b8dd-f556802f4125)  
   Cartoon-like facial shading for surfaces receiving direct light.  
   Supports face shadow maps.  
   
@@ -50,3 +52,5 @@ CelLit Shader offers the following key features:
   
 ## Installation Instructions
 1. Copy `/Engine/Shaders/...` to your engine directory.
+2. Run engine.
+Not require engine build!!
