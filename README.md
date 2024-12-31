@@ -14,10 +14,13 @@ It modifies the HLSL code of the engine's subsurface shading model, requiring th
 
 CelLit Shader offers the following key features:
 
+
+https://github.com/user-attachments/assets/f1bd241d-83a0-43ea-a82d-4c5af70a2aa0
 - **Cel Lit**  
   Cartoon-like representation for surfaces receiving direct light (Two-tone shading).  
   Supports all types of lighting.  
   Suppresses self-shadowing.  
+  compatible PBR  
   
 - **Cel Global Illumination**  
   Cartoon-like representation for surfaces not directly lit (Multiple-tone shading).  
