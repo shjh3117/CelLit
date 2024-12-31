@@ -49,7 +49,7 @@ CelLit Shader offers the following key features:
 - **Incompatible Features**  
   Shader Model 5 (SM5) and below  
   Mobile shaders  
-  Ray-traced shadows  
+  Ray traced shadows  
   
 ## Installation Instructions
 1. Copy `/Engine/Shaders/...` to your engine directory.
