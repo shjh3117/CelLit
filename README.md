@@ -54,5 +54,5 @@ CelLit Shader offers the following key features:
   
 ## Installation Instructions
 1. Copy `/Engine/Shaders/...` to your engine directory.
-2. Run engine.
-Not require engine build!!
+2. Run sample porject.
+No engine build required!
