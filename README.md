@@ -14,7 +14,6 @@ It modifies the HLSL code of the engine's subsurface shading model, requiring th
 
 CelLit Shader offers the following key features:
 
-
 - **Cel Lit**  
   ![ScreenRecording2024-12-31123447-ezgif com-resize](https://github.com/user-attachments/assets/ab3b5d02-efdb-4592-93e4-8cfe7a61b9b7)  
   Cartoon-like shading for surfaces lit by direct lighting (Two-tone shading).  
@@ -28,7 +27,7 @@ CelLit Shader offers the following key features:
   Cartoon-like shading for surfaces lit by indirect lighting (multi-tone shading).  
   Compatible with Lumen indirect lighting.  
   
-- **Cel Face Shadow**
+- **Cel Face Shadow**  
   ![CelLitSampleProject - 언리얼 에디터 12_31_2024 1_34_52 PM](https://github.com/user-attachments/assets/089071c0-1e65-481f-b8dd-f556802f4125)  
   Cartoon-like facial shading for surfaces receiving direct light.  
   Supports face shadow maps.  
@@ -43,14 +42,14 @@ CelLit Shader offers the following key features:
 
 ## Specification
 - **Supported Features**  
-  - Lumen (supports both hardware and software ray tracing)  
-  - Virtual shadow maps (VSM)  
-  - Physically Based Rendering (PBR)  
-
+  Lumen (supports both hardware and software ray tracing)  
+  Virtual shadow maps (VSM)  
+  Physically Based Rendering (PBR)  
+    
 - **Incompatible Features**  
-  - Shader Model 5 (SM5) and below  
-  - Mobile shaders  
-  - Ray-traced shadows  
+  Shader Model 5 (SM5) and below  
+  Mobile shaders  
+  Ray-traced shadows  
   
 ## Installation Instructions
 1. Copy `/Engine/Shaders/...` to your engine directory.
