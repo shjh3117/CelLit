@@ -14,7 +14,7 @@ It modifies the HLSL code of the engine's subsurface shading model, requiring th
 
 CelLit Shader offers the following key features:
 
-- **Cel Lit**  
+- **Cel Lit Rendering**  
   ![ScreenRecording2024-12-31123447-ezgif com-resize](https://github.com/user-attachments/assets/ab3b5d02-efdb-4592-93e4-8cfe7a61b9b7)  
   Cartoon-like shading for surfaces lit by direct lighting (Two-tone shading).  
   Supports all types of lighting.  
@@ -22,15 +22,17 @@ CelLit Shader offers the following key features:
   Suppresses self-shadowing.  
   Compatible with PBR  
 
-- **Cel Global Illumination**  
-  ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e) ![Screenshot2024-12-31153322-ezgif com-resize](https://github.com/user-attachments/assets/a2db7a80-8c63-4d67-89cb-20a9abf210af) ![Screenshot2024-12-31205339-ezgif com-resize](https://github.com/user-attachments/assets/ea0d67bf-a56b-409b-af88-cca81a5b1935)  
+- **Cel Global Illumination Rendering**  
+  ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e) ![Screenshot2024-12-31153322-ezgif com-resize](https://github.com/user-attachments/assets/a2db7a80-8c63-4d67-89cb-20a9abf210af) ![Screenshot2025-01-01172558-ezgif com-resize](https://github.com/user-attachments/assets/fe3abbf7-48d6-44dc-9cdf-693a3e9100b8)  
+
   Cartoon-like shading for surfaces lit by indirect lighting (multi-tone shading).  
   Compatible with Lumen indirect lighting (Ex. Lit by Emissive Color).  
+  Noise Attenuation through Low-Frequency Filtering.  
   
 - **Cel Face Shadow**  
   ![CelLitSampleProject - 언리얼 에디터 12_31_2024 1_34_52 PM](https://github.com/user-attachments/assets/089071c0-1e65-481f-b8dd-f556802f4125)  
   Cartoon-like facial shading for surfaces receiving direct light.  
-  Supports face shadow maps.  
+  Supports face shadow maps.
   
 - **OutLine**  
   Provides a post-process material using Sobel filtering for edge detection.  
