@@ -14,7 +14,7 @@ It modifies the HLSL code of the engine's subsurface shading model, requiring th
 
 CelLit Shader offers the following key features:
 
-- **Cel Lit Rendering**  
+- **Cel Rendering**  
   ![ScreenRecording2024-12-31123447-ezgif com-resize](https://github.com/user-attachments/assets/ab3b5d02-efdb-4592-93e4-8cfe7a61b9b7)  
   Cartoon-like shading for surfaces lit by direct lighting (Two-tone shading).  
   Supports all types of lighting.  
