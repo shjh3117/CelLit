@@ -9,7 +9,7 @@
 - [日本語](README.ja.md)
 
 ## Introduction
-This shader applies lighting effects in the style of manga or animation.  
+This shader applies lighting effects in the cartoon of manga or animation.  
 It modifies the HLSL code of the engine's subsurface shading model, requiring the engine's shader files to be replaced.
 
 CelLit Shader offers the following key features:
