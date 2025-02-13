@@ -1,3 +1,5 @@
+# Test branch  
+
 # **Custom cel-shading style shader for Unreal Engine 5**
 ![Screenshot2024-12-29205635-ezgif com-resize](https://github.com/user-attachments/assets/a1398d67-b2ad-4e15-828d-f196b49f4528)
 
@@ -51,3 +53,5 @@ CelLit Shader offers the following key features:
 No engine build required!
 
 ## Usage
+  Cloth Shading Model is a normal CelLit Material.  
+  Preintergrated skin Shading Model is for face shading.
