@@ -36,7 +36,7 @@ CelLit Shader offers the following key features:
   Specialized outline detection for hair.  
 
 ## Specification
-- **Supported Features**  
+- **Compatible Features**  
   Lumen (supports both hardware and software ray tracing)  
   Virtual shadow maps (VSM)  
   Physically Based Rendering (PBR)  
