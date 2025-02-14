@@ -54,3 +54,4 @@ No engine build required!
 ## Usage
   Cloth Shading Model is a normal CelLit Material.  
   Preintergrated skin Shading Model is for face shading.
+  I recommend using /content/material/M_CelLit, and M_CelLit_face in SampleProject.
