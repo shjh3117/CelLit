@@ -43,7 +43,7 @@ CelLit Shader offers the following key features:
     
 - **Incompatible Features**  
   Shader Model 5 (SM5) and below  
-  Mobile
+  Mobile  
   Ray traced shadows  
   
 ## Installation
