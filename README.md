@@ -18,7 +18,7 @@ CelLit Shader offers the following key features:
   Cartoon-like shading for surfaces lit by direct lighting.  
   Supports Mult-tone Shading(2-10 tone).  
   Supports Shadow threshold map.  
-  Suppresses self-shadowing.  
+  Reduces self-shadowing using opacity.  
   Compatible with all types of lighting.  
   Compatible with transmission.  
   Compatible with PBR,  
