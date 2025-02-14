@@ -10,7 +10,7 @@
 - 
 ## Introduction
 This shader applies lighting effects in the cartoon of manga or animation.  
-It modifies the HLSL code of the engine's preintergrated skin shading model and cloth shading model, so requiring the engine's shader files to be replaced.  
+It modifies the HLSL code of the engine's preintergrated skin shading model and cloth shading model, so requiring the engine's shader code to be replaced.  
 CelLit Shader offers the following key features:   
 
 - **Cel Rendering**  
@@ -53,5 +53,5 @@ No engine build required!
 
 ## Usage
   Cloth Shading Model is a normal CelLit Material.  
-  Preintergrated skin Shading Model is for face shading.
+  Preintergrated skin Shading Model is for face shading.  
   I recommend using /content/material/M_CelLit, and M_CelLit_face in SampleProject.
