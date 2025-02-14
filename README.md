@@ -3,7 +3,7 @@
 # **Custom cel-shading style shader for Unreal Engine 5**
 ![Screenshot2024-12-29205635-ezgif com-resize](https://github.com/user-attachments/assets/a1398d67-b2ad-4e15-828d-f196b49f4528)
 
-**CelLit** is a simple **cel-shading style shader** implemented in Unreal Engine 5.
+**CelLit** is a simple **cel-shading style shader** implemented in Unreal Engine 5.5.
 
 ## View in Other Languages
 - [English](README.md)
