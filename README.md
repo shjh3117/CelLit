@@ -3,12 +3,11 @@
 # **Custom cel-shading style shader for Unreal Engine 5**
 ![Screenshot2024-12-29205635-ezgif com-resize](https://github.com/user-attachments/assets/a1398d67-b2ad-4e15-828d-f196b49f4528)
 
-**CelLit** is a **cel-shading style shader** implemented in Unreal Engine 5.
+**CelLit** is a simple **cel-shading style shader** implemented in Unreal Engine 5.
 
 ## View in Other Languages
 - [English](README.md)
-- [한국어](README.ko.md)
-
+- 
 ## Introduction
 This shader applies lighting effects in the cartoon of manga or animation.  
 It modifies the HLSL code of the engine's preintergrated skin shading model and cloth shading model, so requiring the engine's shader files to be replaced.  
