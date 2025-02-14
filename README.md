@@ -32,8 +32,6 @@ CelLit Shader offers the following key features:
   
 - **OutLine**  
   Provides a post-process material using Sobel filtering for edge detection.  
-  Includes multiple customizable parameters.  
-  Specialized outline detection for hair.  
 
 ## Specification
 - **Compatible Features**  
