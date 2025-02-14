@@ -18,10 +18,11 @@ CelLit Shader offers the following key features:
   Cartoon-like shading for surfaces lit by direct lighting.  
   Supports Mult-tone Shading(2-10 tone).  
   Supports Shadow threshold map.  
+  Supports Virtual texure drawing to control normal.  
   Reduces self-shadowing using opacity.  
   Compatible with all types of lighting.  
   Compatible with transmission.  
-  Compatible with PBR,  
+  Compatible with PBR.  
 
 - **Cel Global Illumination Rendering**  
   ![20241231-0422-08 2373269-ezgif com-resize](https://github.com/user-attachments/assets/39da4092-d2cb-4790-83d0-4513dff94a0e) ![Screenshot2024-12-31153322-ezgif com-resize](https://github.com/user-attachments/assets/a2db7a80-8c63-4d67-89cb-20a9abf210af) ![Screenshot2025-01-01172558-ezgif com-resize](https://github.com/user-attachments/assets/fe3abbf7-48d6-44dc-9cdf-693a3e9100b8)  
@@ -52,4 +53,4 @@ No engine build required!
 ## Usage
   Cloth Shading Model is a normal CelLit Material.  
   Preintergrated skin Shading Model is for face shading.  
-  I recommend using /content/material/M_CelLit, and M_CelLit_face in SampleProject.
+  I recommend using /content/material/M_CelLit, and M_CelLit_face in SampleProject.  
